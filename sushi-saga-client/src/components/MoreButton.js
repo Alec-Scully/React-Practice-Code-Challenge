@@ -1,7 +1,9 @@
 import React from 'react'
+// import Sushi from './Sushi'
+// import SushiContainer from './SushiContainer'
 
 const MoreButton = (props) => {
-    return <button onClick={/* Fill me in! */ null}>
+    return <button onClick={props.sliceSushi}> {/*sliceSushi function*/}
             More sushi!
           </button>
 }
